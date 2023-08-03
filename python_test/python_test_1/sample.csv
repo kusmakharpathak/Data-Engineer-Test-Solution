@@ -1,0 +1,6 @@
+transaction_id,product,price,quantity,transaction_date
+1,Apple,0.5,10,01-01-2023
+2,Orange,0.75,8,02-01-2023
+3,Banana,0.3,15,03-01-2023
+4,Pineapple,1,5,04-01-2023
+5,Mango,1.5,12,05-01-2023

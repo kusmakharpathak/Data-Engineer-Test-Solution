@@ -1,0 +1,41 @@
+Test 3: API Interaction
+
+Task: Write a Python program to interact with a hypothetical REST API. The API provides weather data and has two endpoints: one to get the current weather for a specific city (/weather/{city}) and one to get a weather forecast for the next 7 days (/forecast/{city}).
+
+Write a function to get the current weather for a city.
+Write a function to get a 7-day forecast for a city.
+The functions should return the data as a Python dictionary.
+
+Include unit tests to ensure that the functions handle various edge cases,
+like non-existent cities or server errors.
+
+For Python Test 3, which involves interacting with a hypothetical REST API for weather data, the actual data would be JSON returned from API requests. However, since the API is hypothetical, I'll provide examples of what the JSON data might look like.
+
+The API provides two endpoints: one for current weather and one for a 7-day forecast.
+
+1. Current weather for a city (/weather/{city}) might return JSON data like this:
+
+{
+    "city": "San Francisco",
+    "temperature": 20.5,
+    "humidity": 80,
+    "pressure": 1012,
+    "weather_description": "cloudy"
+}
+
+2. A 7-day forecast for a city (/forecast/{city}) might return JSON data like this:
+
+{
+    "city": "San Francisco",
+    "forecast": [
+        {"date": "2023-07-29", "min_temp": 18, "max_temp": 22, "weather_description": "partly cloudy"},
+        {"date": "2023-07-30", "min_temp": 17, "max_temp": 23, "weather_description": "sunny"},
+        {"date": "2023-07-31", "min_temp": 19, "max_temp": 24, "weather_description": "sunny"},
+        {"date": "2023-08-01", "min_temp": 18, "max_temp": 25, "weather_description": "partly cloudy"},
+        {"date": "2023-08-02", "min_temp": 18, "max_temp": 24, "weather_description": "cloudy"},
+        {"date": "2023-08-03", "min_temp": 17, "max_temp": 23, "weather_description": "cloudy"},
+        {"date": "2023-08-04", "min_temp": 16, "max_temp": 22, "weather_description": "rainy"}
+    ]
+}
+
+These JSON samples represent the kind of data a real weather API might return. The candidate's task would be to write Python code that can send GET requests to these API endpoints, parse the JSON responses, and return the data as Python dictionaries.

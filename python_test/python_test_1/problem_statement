@@ -1,0 +1,12 @@
+Test 1: Data Cleaning and Transformation
+
+The candidate is provided with a CSV file named sample.csv(within the same folder) that contains data about sales transactions. The columns are transaction_id, product, price, quantity, and transaction_date.
+
+Task: Write a Python program to clean and transform the data in the following ways:
+
+Convert the transaction_date from string format ('dd-mm-yyyy') to a Python datetime object.
+Add a new column total_sales which is the product of price and quantity.
+Remove any rows with missing or null values.
+Save the cleaned data into a new CSV file named sales_cleaned.csv.
+The program should include unit tests to verify that the transformations are working correctly.
+

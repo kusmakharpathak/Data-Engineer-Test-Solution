@@ -1,0 +1,11 @@
+Test 1: SQL Fundamentals
+
+You have a table Users with the following columns: id (PK, INT), firstName (VARCHAR), lastName (VARCHAR), email (VARCHAR), dateOfBirth (DATE), signUpDate (DATETIME).
+
+Write a query to fetch all users who have signed up in the last 30 days.
+
+Write a query to count the total number of users who have their birthday today.
+
+Write a query to fetch the top 10 oldest users who have signed up.
+
+Write a query to update the email addresses of all users by appending ".backup" at the end of their current email.

@@ -1,0 +1,35 @@
+Test 2: Web Scraping and Data Extraction
+
+Task: Write a Python program using BeautifulSoup or Scrapy to scrape product information from an imaginary e-commerce website. The information to scrape includes product_name, price, and rating.
+
+Parse the HTML to extract the desired information.
+Store the extracted information in a pandas DataFrame.
+Save the DataFrame to a CSV file named product_info.csv.
+Include unit tests to verify that the program can handle different page structures and that the data extraction is correct.
+
+For Python Test 2, which is a web scraping task, you would need HTML data. This is because in a real-life scenario, web scraping tasks involve extracting data from the HTML source code of web pages.
+
+Let's consider you are scraping an imaginary e-commerce webpage. Here's a simplified HTML structure of such a page:
+
+<!DOCTYPE html>
+<html>
+<body>
+    <div class="product">
+        <h2 class="product-name">Product 1</h2>
+        <p class="price">$50</p>
+        <p class="rating">4.5</p>
+    </div>
+    <div class="product">
+        <h2 class="product-name">Product 2</h2>
+        <p class="price">$25</p>
+        <p class="rating">4.0</p>
+    </div>
+    <div class="product">
+        <h2 class="product-name">Product 3</h2>
+        <p class="price">$75</p>
+        <p class="rating">5.0</p>
+    </div>
+</body>
+</html>
+
+In the actual test, you'd provide the URL of the web page to be scraped, but in a controlled testing or learning environment, it's common to work with HTML data directly, similar to the string provided above. The candidate's task would be to extract the product name, price, and rating for each product using a library like BeautifulSoup or Scrapy.

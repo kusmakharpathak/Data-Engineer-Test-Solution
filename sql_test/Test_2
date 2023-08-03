@@ -1,0 +1,9 @@
+Test 2: Aggregation and Grouping
+
+Consider two tables - Orders: orderId (PK, INT), userId (FK, INT), totalAmount (FLOAT), orderDate (DATE) and OrderItems: orderItemId (PK, INT), orderId (FK, INT), productId (INT), quantity (INT), unitPrice (FLOAT).
+
+Write a query to find the total revenue generated each day.
+
+Write a query to find the user who has placed the maximum number of orders.
+
+Write a query to find the most sold product by quantity.
